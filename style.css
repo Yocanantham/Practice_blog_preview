@@ -84,3 +84,22 @@ body {
 .main h1 a:focus, .main h1 a:hover{
     color: hsl(47, 88%, 63%);
 }
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+}
+.header a {
+    text-decoration: none;
+    font-weight: 500;
+}
+.header a:hover, .header a:hover {
+    box-shadow: 5px -5px black;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: 800;
+}
