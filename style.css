@@ -24,6 +24,8 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 9px 9px ;
+    transition: box-shadow 0.3s ease;
+    
 }
 
 .image{
@@ -56,8 +58,13 @@ body {
     margin-bottom: 1rem;
 }
 .main h1 a {
+
     text-decoration: none;
     color: black;
+    transition: color 0.3s ease;
+}
+.main h1 a:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .main p{
@@ -80,8 +87,9 @@ body {
 }
 .container:hover, .container:focus {    
     box-shadow: 15px 15px;
+   
 }
-.main h1 a:focus, .main h1 a:hover{
+.container:hover .main h1 a, .container:focus .main h1 a{
     color: hsl(47, 88%, 63%);
 }
 .header {
