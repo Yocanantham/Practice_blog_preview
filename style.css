@@ -23,9 +23,8 @@ body {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    transition: box-shadow 1s ease, transform 1s ease;
     box-shadow: 9px 9px ;
-    transition: box-shadow 0.3s ease;
-    
 }
 
 .image{
@@ -86,9 +85,11 @@ body {
     width: 50px;
 }
 .container:hover, .container:focus {    
-    box-shadow: 15px 15px;
-   
+    box-shadow: 15px 15px ;
+    transform: translate(-15px , -15px);
+    
 }
+
 .container:hover .main h1 a, .container:focus .main h1 a{
     color: hsl(47, 88%, 63%);
 }
